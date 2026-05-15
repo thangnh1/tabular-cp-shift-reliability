@@ -1,4 +1,4 @@
-# Reliability of Tabular ML Under Distribution Shift — Code Release
+# Reliability of Tabular ML Under Distribution Shift - Code Release
 
 Companion code and reproducibility package for the paper
 **"Reliability of Tabular ML Under Distribution Shift: An Empirical Failure-Modes Map for Conformal Prediction and Post-hoc Calibration."**
@@ -50,7 +50,7 @@ python3 src/figures/make_figures.py
 
 Runtime: <30 s. Uses the parquet files already in `results/`.
 
-### Full mode — rerun all experiments end-to-end
+### Full mode - rerun all experiments end-to-end
 
 ```bash
 bash reproduce.sh
@@ -104,8 +104,8 @@ First-time fetches will cache under `~/.cache/huggingface/` and `~/scikit_learn_
 ## Citation
 
 ```
-@misc{nguyen2026tabularcp,
-  author = {Bee Nguyen},
+@misc{thang2026tabularcp,
+  author = {Thang Nguyen Huy},
   title  = {Reliability of Tabular ML Under Distribution Shift: An Empirical
             Failure-Modes Map for Conformal Prediction and Post-hoc Calibration},
   year   = {2026},
