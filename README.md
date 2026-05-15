@@ -104,12 +104,13 @@ First-time fetches will cache under `~/.cache/huggingface/` and `~/scikit_learn_
 ## Citation
 
 ```
-@misc{tabular_cp_failure_modes_2025,
+@misc{nguyen2026tabularcp,
+  author = {Bee Nguyen},
   title  = {Reliability of Tabular ML Under Distribution Shift: An Empirical
             Failure-Modes Map for Conformal Prediction and Post-hoc Calibration},
-  year   = {2025},
-  note   = {Preprint},
-  url    = {<paper URL to be inserted>},
+  year   = {2026},
+  note   = {arXiv URL to be added after posting},
+  url    = {https://github.com/thangnh1/tabular-cp-shift-reliability},
 }
 ```
 

@@ -7,9 +7,10 @@ type: software
 version: "0.1"
 date-released: 2026-05-15
 authors:
-  - given-names: "TBD"
-    family-names: "TBD"
-    note: "Author block to be filled in before arXiv submission."
+  - given-names: "Bee"
+    family-names: "Nguyen"
+    affiliation: "Independent Researcher"
+    email: "nguyenthang187txnm@gmail.com"
 keywords:
   - "conformal prediction"
   - "post-hoc calibration"
@@ -32,7 +33,10 @@ preferred-citation:
     Reliability of Tabular ML Under Distribution Shift:
     An Empirical Failure-Modes Map for Conformal Prediction and Post-hoc Calibration
   authors:
-    - given-names: "TBD"
-      family-names: "TBD"
+    - given-names: "Bee"
+      family-names: "Nguyen"
+      affiliation: "Independent Researcher"
+      email: "nguyenthang187txnm@gmail.com"
   year: 2026
-  notes: "Preprint URL to be inserted before arXiv submission."
+  url: "https://github.com/thangnh1/tabular-cp-shift-reliability"
+  notes: "arXiv preprint URL to be added after posting."
