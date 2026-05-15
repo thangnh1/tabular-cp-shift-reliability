@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code or the accompanying paper, please cite as follows."
+title: >-
+  Reliability of Tabular ML Under Distribution Shift:
+  An Empirical Failure-Modes Map for Conformal Prediction and Post-hoc Calibration
+type: software
+version: "0.1"
+date-released: 2026-05-15
+authors:
+  - given-names: "TBD"
+    family-names: "TBD"
+    note: "Author block to be filled in before arXiv submission."
+keywords:
+  - "conformal prediction"
+  - "post-hoc calibration"
+  - "distribution shift"
+  - "tabular machine learning"
+  - "empirical evaluation"
+  - "failure modes"
+abstract: >-
+  Source code, reproduction script, and selected result artefacts accompanying
+  the paper "Reliability of Tabular ML Under Distribution Shift". The repository
+  contains: implementations of split, weighted, and class-conditional Mondrian
+  conformal prediction with the APS score; four post-hoc calibrators; the
+  10-task main experimental grid runner; a budget-axis baseline (post-hoc CP
+  vs retraining at varying target-label budgets); a deploy-time decision-tree
+  analysis over density-ratio diagnostics; an effective-sample-size robustness
+  appendix; and a one-command end-to-end reproduction script.
+preferred-citation:
+  type: generic
+  title: >-
+    Reliability of Tabular ML Under Distribution Shift:
+    An Empirical Failure-Modes Map for Conformal Prediction and Post-hoc Calibration
+  authors:
+    - given-names: "TBD"
+      family-names: "TBD"
+  year: 2026
+  notes: "Preprint URL to be inserted before arXiv submission."

@@ -1,0 +1,304 @@
+{
+  "feature_names": [
+    "n_id_train",
+    "n_id_cal",
+    "n_features",
+    "id_class_imb",
+    "log_dr_max",
+    "log_dr_p99",
+    "log_dr_std",
+    "ood_pred_entropy",
+    "mean_pred_kl_id_to_ood",
+    "mean_pred_id",
+    "mean_pred_ood"
+  ],
+  "task_features": [
+    {
+      "task": "ACSIncome_state",
+      "n_id_train": 73497,
+      "n_id_cal": 36748,
+      "n_features": 10,
+      "id_class_imb": 0.08843218090534305,
+      "log_dr_max": 1.6472624735108783,
+      "log_dr_p99": 1.3042221890122465,
+      "log_dr_std": 1.2265037976479407,
+      "ood_pred_entropy": 0.43415296904418993,
+      "mean_pred_kl_id_to_ood": 0.0009080383355274634,
+      "mean_pred_id": 0.41187552415448336,
+      "mean_pred_ood": 0.432946942604371
+    },
+    {
+      "task": "ACSIncome_temporal",
+      "n_id_train": 68965,
+      "n_id_cal": 34482,
+      "n_features": 10,
+      "id_class_imb": 0.14477633582251864,
+      "log_dr_max": 0.5283235986921788,
+      "log_dr_p99": 0.32171333530129426,
+      "log_dr_std": 0.14824825739177727,
+      "ood_pred_entropy": 0.39083392580310294,
+      "mean_pred_kl_id_to_ood": 0.00043018881194143745,
+      "mean_pred_id": 0.35230990531836953,
+      "mean_pred_ood": 0.3664034035410664
+    },
+    {
+      "task": "ACSIncome_sex_CA",
+      "n_id_train": 38841,
+      "n_id_cal": 19420,
+      "n_features": 10,
+      "id_class_imb": 0.03265878839370767,
+      "log_dr_max": 1.2988314662888125,
+      "log_dr_p99": -2.077529637149069,
+      "log_dr_std": 1.7142108125419895,
+      "ood_pred_entropy": 0.4133527466188136,
+      "mean_pred_kl_id_to_ood": 0.006035361100867123,
+      "mean_pred_id": 0.4664111157547765,
+      "mean_pred_ood": 0.41203575643452367
+    },
+    {
+      "task": "ACSIncome_race_CA",
+      "n_id_train": 45375,
+      "n_id_cal": 22687,
+      "n_features": 10,
+      "id_class_imb": 0.05431404958677688,
+      "log_dr_max": 0.1223450721373664,
+      "log_dr_p99": -2.4337139526620963,
+      "log_dr_std": 1.494198851926315,
+      "ood_pred_entropy": 0.4037360521024251,
+      "mean_pred_kl_id_to_ood": 0.007735861851483658,
+      "mean_pred_id": 0.44410890103379747,
+      "mean_pred_ood": 0.383116741110801
+    },
+    {
+      "task": "Adult_sex",
+      "n_id_train": 16325,
+      "n_id_cal": 8162,
+      "n_features": 14,
+      "id_class_imb": 0.1950689127105666,
+      "log_dr_max": -0.022377825308480634,
+      "log_dr_p99": -0.9904126283721297,
+      "log_dr_std": 0.7412803558553398,
+      "ood_pred_entropy": 0.18679183159722434,
+      "mean_pred_kl_id_to_ood": 0.18576559396254222,
+      "mean_pred_id": 0.30264250657267433,
+      "mean_pred_ood": 0.08834973997248605
+    },
+    {
+      "task": "Bank_age",
+      "n_id_train": 7506,
+      "n_id_cal": 3753,
+      "n_features": 16,
+      "id_class_imb": 0.3687716493471889,
+      "log_dr_max": 1.2847314987443146,
+      "log_dr_p99": 0.3354860803655537,
+      "log_dr_std": 2.293126982822295,
+      "ood_pred_entropy": 0.18561292708152421,
+      "mean_pred_kl_id_to_ood": 0.0032234838361243252,
+      "mean_pred_id": 0.1259638314368172,
+      "mean_pred_ood": 0.10094447787656247
+    },
+    {
+      "task": "Taiwan_sex",
+      "n_id_train": 5944,
+      "n_id_cal": 2972,
+      "n_features": 23,
+      "id_class_imb": 0.2621130551816958,
+      "log_dr_max": 1.8386389825310934,
+      "log_dr_p99": 1.0140259852072386,
+      "log_dr_std": 0.22726744962008383,
+      "ood_pred_entropy": 0.3893497100803793,
+      "mean_pred_kl_id_to_ood": 0.0012584577180936377,
+      "mean_pred_id": 0.22757754243639636,
+      "mean_pred_ood": 0.20701080888397577
+    },
+    {
+      "task": "Diabetes_race",
+      "n_id_train": 38049,
+      "n_id_cal": 19024,
+      "n_features": 46,
+      "id_class_imb": 0.387382059975295,
+      "log_dr_max": 3.1200743491850584,
+      "log_dr_p99": 1.6068013810099033,
+      "log_dr_std": 0.7671800106580001,
+      "ood_pred_entropy": 0.3317826860091795,
+      "mean_pred_kl_id_to_ood": 2.5969006067376238e-06,
+      "mean_pred_id": 0.11209985876778614,
+      "mean_pred_ood": 0.11282019887223402
+    },
+    {
+      "task": "SpeedDating_race",
+      "n_id_train": 2363,
+      "n_id_cal": 1181,
+      "n_features": 117,
+      "id_class_imb": 0.33495556495979684,
+      "log_dr_max": 4.8977070998433465,
+      "log_dr_p99": 3.6075157104118807,
+      "log_dr_std": 2.299561876041129,
+      "ood_pred_entropy": 0.1638288838501636,
+      "mean_pred_kl_id_to_ood": 0.004274148114169447,
+      "mean_pred_id": 0.11479347201774477,
+      "mean_pred_ood": 0.08753115673697474
+    },
+    {
+      "task": "OnlineNews_channel",
+      "n_id_train": 3673,
+      "n_id_cal": 1836,
+      "n_features": 52,
+      "id_class_imb": 0.07827389055268175,
+      "log_dr_max": 8.10768767825437,
+      "log_dr_p99": 2.622704929702264,
+      "log_dr_std": 0.6665729384898081,
+      "ood_pred_entropy": 0.5952923489750772,
+      "mean_pred_kl_id_to_ood": 5.158728243597052e-06,
+      "mean_pred_id": 0.5922408712529983,
+      "mean_pred_ood": 0.5906617670774924
+    }
+  ],
+  "target_cp_family": {
+    "ACSIncome_race_CA": "split",
+    "ACSIncome_sex_CA": "mondrian",
+    "ACSIncome_state": "split",
+    "ACSIncome_temporal": "mondrian",
+    "Adult_sex": "weighted",
+    "Bank_age": "split",
+    "Diabetes_race": "mondrian",
+    "OnlineNews_channel": "mondrian",
+    "SpeedDating_race": "mondrian",
+    "Taiwan_sex": "mondrian"
+  },
+  "tree_full_data_depth2": "|--- log_dr_max <= 1.74\n|   |--- mean_pred_kl_id_to_ood <= 0.10\n|   |   |--- class: split\n|   |--- mean_pred_kl_id_to_ood >  0.10\n|   |   |--- class: weighted\n|--- log_dr_max >  1.74\n|   |--- class: mondrian\n",
+  "loo_depth2": {
+    "correct": 2,
+    "n": 10,
+    "rate": 0.2
+  },
+  "loo_depth3": {
+    "correct": 2,
+    "n": 10,
+    "rate": 0.2
+  },
+  "fold_results_depth2": [
+    {
+      "task": "ACSIncome_state",
+      "pred": "mondrian",
+      "actual": "split",
+      "correct": false
+    },
+    {
+      "task": "ACSIncome_temporal",
+      "pred": "split",
+      "actual": "mondrian",
+      "correct": false
+    },
+    {
+      "task": "ACSIncome_sex_CA",
+      "pred": "split",
+      "actual": "mondrian",
+      "correct": false
+    },
+    {
+      "task": "ACSIncome_race_CA",
+      "pred": "weighted",
+      "actual": "split",
+      "correct": false
+    },
+    {
+      "task": "Adult_sex",
+      "pred": "mondrian",
+      "actual": "weighted",
+      "correct": false
+    },
+    {
+      "task": "Bank_age",
+      "pred": "mondrian",
+      "actual": "split",
+      "correct": false
+    },
+    {
+      "task": "Taiwan_sex",
+      "pred": "split",
+      "actual": "mondrian",
+      "correct": false
+    },
+    {
+      "task": "Diabetes_race",
+      "pred": "mondrian",
+      "actual": "mondrian",
+      "correct": true
+    },
+    {
+      "task": "SpeedDating_race",
+      "pred": "split",
+      "actual": "mondrian",
+      "correct": false
+    },
+    {
+      "task": "OnlineNews_channel",
+      "pred": "mondrian",
+      "actual": "mondrian",
+      "correct": true
+    }
+  ],
+  "fold_results_depth3": [
+    {
+      "task": "ACSIncome_state",
+      "pred": "mondrian",
+      "actual": "split",
+      "correct": false
+    },
+    {
+      "task": "ACSIncome_temporal",
+      "pred": "split",
+      "actual": "mondrian",
+      "correct": false
+    },
+    {
+      "task": "ACSIncome_sex_CA",
+      "pred": "split",
+      "actual": "mondrian",
+      "correct": false
+    },
+    {
+      "task": "ACSIncome_race_CA",
+      "pred": "weighted",
+      "actual": "split",
+      "correct": false
+    },
+    {
+      "task": "Adult_sex",
+      "pred": "mondrian",
+      "actual": "weighted",
+      "correct": false
+    },
+    {
+      "task": "Bank_age",
+      "pred": "mondrian",
+      "actual": "split",
+      "correct": false
+    },
+    {
+      "task": "Taiwan_sex",
+      "pred": "split",
+      "actual": "mondrian",
+      "correct": false
+    },
+    {
+      "task": "Diabetes_race",
+      "pred": "mondrian",
+      "actual": "mondrian",
+      "correct": true
+    },
+    {
+      "task": "SpeedDating_race",
+      "pred": "split",
+      "actual": "mondrian",
+      "correct": false
+    },
+    {
+      "task": "OnlineNews_channel",
+      "pred": "mondrian",
+      "actual": "mondrian",
+      "correct": true
+    }
+  ]
+}

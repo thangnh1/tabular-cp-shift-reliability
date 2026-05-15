@@ -1,0 +1,324 @@
+{
+  "feature_names": [
+    "n_train_est",
+    "n_features",
+    "class_imb_proxy",
+    "shift_class_rate_diff",
+    "shift_acc_drop_pp",
+    "shift_cov_drop_pp"
+  ],
+  "task_features": [
+    {
+      "task": "ACSIncome_state",
+      "n_train_est": 73498.0,
+      "n_features": 10.0,
+      "class_imb_proxy": 0.004086922592100195,
+      "shift_class_rate_diff": 0.06561499256735004,
+      "shift_acc_drop_pp": 8.057834714250834,
+      "shift_cov_drop_pp": 3.2511238533042053
+    },
+    {
+      "task": "ACSIncome_temporal",
+      "n_train_est": 68968.0,
+      "n_features": 10.0,
+      "class_imb_proxy": 0.019813843562482836,
+      "shift_class_rate_diff": 0.02546806057458917,
+      "shift_acc_drop_pp": 1.450287995876387,
+      "shift_cov_drop_pp": 0.7110992825525408
+    },
+    {
+      "task": "ACSIncome_sex_CA",
+      "n_train_est": 38844.0,
+      "n_features": 10.0,
+      "class_imb_proxy": 0.005255106288100553,
+      "shift_class_rate_diff": 0.00815584933391944,
+      "shift_acc_drop_pp": 0.5342568807251258,
+      "shift_cov_drop_pp": 0.02675717500576491
+    },
+    {
+      "task": "ACSIncome_race_CA",
+      "n_train_est": 45378.0,
+      "n_features": 10.0,
+      "class_imb_proxy": 0.007465515176888093,
+      "shift_class_rate_diff": 0.008271268029018342,
+      "shift_acc_drop_pp": 3.4052348776106633,
+      "shift_cov_drop_pp": 1.4457215468189344
+    },
+    {
+      "task": "Adult_sex",
+      "n_train_est": 16326.0,
+      "n_features": 10.0,
+      "class_imb_proxy": 0.07270929683492289,
+      "shift_class_rate_diff": 0.3221563695616685,
+      "shift_acc_drop_pp": -7.673429344920846,
+      "shift_cov_drop_pp": 1.3077206954013487
+    },
+    {
+      "task": "Bank_age",
+      "n_train_est": 7508.0,
+      "n_features": 10.0,
+      "class_imb_proxy": 0.15167308154451187,
+      "shift_class_rate_diff": 0.00597186524832094,
+      "shift_acc_drop_pp": -2.0234015140162542,
+      "shift_cov_drop_pp": -0.35320875003054253
+    },
+    {
+      "task": "Taiwan_sex",
+      "n_train_est": 5944.0,
+      "n_features": 10.0,
+      "class_imb_proxy": 0.1981820752178528,
+      "shift_class_rate_diff": 0.020050112754816385,
+      "shift_acc_drop_pp": -2.676953886053879,
+      "shift_cov_drop_pp": -0.8352331814643676
+    }
+  ],
+  "top3_per_task": {
+    "ACSIncome_state": [
+      "split+uncal",
+      "weighted+temperature",
+      "split+platt",
+      "split+temperature",
+      "mondrian+uncal",
+      "weighted+isotonic",
+      "weighted+platt",
+      "split+isotonic",
+      "weighted+uncal",
+      "mondrian+temperature",
+      "mondrian+isotonic",
+      "mondrian+platt"
+    ],
+    "ACSIncome_temporal": [
+      "mondrian+temperature",
+      "mondrian+platt",
+      "mondrian+uncal",
+      "mondrian+isotonic",
+      "weighted+temperature",
+      "split+platt",
+      "weighted+uncal",
+      "split+uncal",
+      "weighted+platt",
+      "split+temperature",
+      "weighted+isotonic",
+      "split+isotonic"
+    ],
+    "ACSIncome_sex_CA": [
+      "mondrian+isotonic",
+      "mondrian+temperature",
+      "mondrian+platt",
+      "split+uncal",
+      "split+platt",
+      "split+isotonic",
+      "split+temperature",
+      "weighted+isotonic",
+      "mondrian+uncal",
+      "weighted+temperature",
+      "weighted+platt",
+      "weighted+uncal"
+    ],
+    "ACSIncome_race_CA": [
+      "split+temperature",
+      "mondrian+platt",
+      "split+platt",
+      "mondrian+isotonic",
+      "split+uncal",
+      "mondrian+uncal",
+      "split+isotonic",
+      "mondrian+temperature",
+      "weighted+isotonic",
+      "weighted+platt",
+      "weighted+temperature",
+      "weighted+uncal"
+    ],
+    "Adult_sex": [
+      "weighted+isotonic",
+      "weighted+temperature",
+      "weighted+uncal",
+      "weighted+platt",
+      "split+temperature",
+      "split+uncal",
+      "split+platt",
+      "split+isotonic",
+      "mondrian+platt",
+      "mondrian+temperature",
+      "mondrian+isotonic",
+      "mondrian+uncal"
+    ],
+    "Bank_age": [
+      "split+uncal",
+      "split+platt",
+      "mondrian+temperature",
+      "weighted+platt",
+      "split+isotonic",
+      "mondrian+uncal",
+      "split+temperature",
+      "mondrian+platt",
+      "weighted+uncal",
+      "weighted+isotonic",
+      "mondrian+isotonic",
+      "weighted+temperature"
+    ],
+    "Taiwan_sex": [
+      "mondrian+isotonic",
+      "mondrian+temperature",
+      "mondrian+platt",
+      "mondrian+uncal",
+      "weighted+isotonic",
+      "split+isotonic",
+      "split+platt",
+      "weighted+temperature",
+      "weighted+uncal",
+      "split+uncal",
+      "weighted+platt",
+      "split+temperature"
+    ]
+  },
+  "top1_cp_family_per_task": {
+    "ACSIncome_state": "split",
+    "ACSIncome_temporal": "mondrian",
+    "ACSIncome_sex_CA": "mondrian",
+    "ACSIncome_race_CA": "split",
+    "Adult_sex": "weighted",
+    "Bank_age": "split",
+    "Taiwan_sex": "mondrian"
+  },
+  "tree_full_data_method": "|--- shift_cov_drop_pp <= 0.37\n|   |--- shift_class_rate_diff <= 0.01\n|   |   |--- class: split+uncal\n|   |--- shift_class_rate_diff >  0.01\n|   |   |--- class: mondrian+isotonic\n|--- shift_cov_drop_pp >  0.37\n|   |--- n_train_est <= 30852.00\n|   |   |--- class: weighted+isotonic\n|   |--- n_train_est >  30852.00\n|   |   |--- class: mondrian+temperature\n",
+  "tree_full_data_cp_family": "|--- shift_cov_drop_pp <= 1.38\n|   |--- shift_acc_drop_pp <= -5.18\n|   |   |--- class: weighted\n|   |--- shift_acc_drop_pp >  -5.18\n|   |   |--- class: mondrian\n|--- shift_cov_drop_pp >  1.38\n|   |--- class: split\n",
+  "loo_top1_method": {
+    "correct": 0,
+    "n": 7,
+    "rate": 0.0
+  },
+  "loo_top3_method_in_actual_top3": {
+    "correct": 1,
+    "n": 7,
+    "rate": 0.14285714285714285
+  },
+  "loo_top1_cp_family": {
+    "correct": 3,
+    "n": 7,
+    "rate": 0.42857142857142855
+  },
+  "fold_results_method": [
+    {
+      "task": "ACSIncome_state",
+      "predicted_top1": "mondrian+temperature",
+      "actual_top1": "split+uncal",
+      "actual_top3": [
+        "split+uncal",
+        "weighted+temperature",
+        "split+platt"
+      ],
+      "predicted_in_actual_top3": false
+    },
+    {
+      "task": "ACSIncome_temporal",
+      "predicted_top1": "mondrian+isotonic",
+      "actual_top1": "mondrian+temperature",
+      "actual_top3": [
+        "mondrian+temperature",
+        "mondrian+platt",
+        "mondrian+uncal"
+      ],
+      "predicted_in_actual_top3": false
+    },
+    {
+      "task": "ACSIncome_sex_CA",
+      "predicted_top1": "mondrian+temperature",
+      "actual_top1": "mondrian+isotonic",
+      "actual_top3": [
+        "mondrian+isotonic",
+        "mondrian+temperature",
+        "mondrian+platt"
+      ],
+      "predicted_in_actual_top3": true
+    },
+    {
+      "task": "ACSIncome_race_CA",
+      "predicted_top1": "mondrian+temperature",
+      "actual_top1": "split+temperature",
+      "actual_top3": [
+        "split+temperature",
+        "mondrian+platt",
+        "split+platt"
+      ],
+      "predicted_in_actual_top3": false
+    },
+    {
+      "task": "Adult_sex",
+      "predicted_top1": "split+temperature",
+      "actual_top1": "weighted+isotonic",
+      "actual_top3": [
+        "weighted+isotonic",
+        "weighted+temperature",
+        "weighted+uncal"
+      ],
+      "predicted_in_actual_top3": false
+    },
+    {
+      "task": "Bank_age",
+      "predicted_top1": "mondrian+isotonic",
+      "actual_top1": "split+uncal",
+      "actual_top3": [
+        "split+uncal",
+        "split+platt",
+        "mondrian+temperature"
+      ],
+      "predicted_in_actual_top3": false
+    },
+    {
+      "task": "Taiwan_sex",
+      "predicted_top1": "split+uncal",
+      "actual_top1": "mondrian+isotonic",
+      "actual_top3": [
+        "mondrian+isotonic",
+        "mondrian+temperature",
+        "mondrian+platt"
+      ],
+      "predicted_in_actual_top3": false
+    }
+  ],
+  "fold_results_cp_family": [
+    {
+      "task": "ACSIncome_state",
+      "predicted_cp": "mondrian",
+      "actual_cp": "split",
+      "correct": false
+    },
+    {
+      "task": "ACSIncome_temporal",
+      "predicted_cp": "mondrian",
+      "actual_cp": "mondrian",
+      "correct": true
+    },
+    {
+      "task": "ACSIncome_sex_CA",
+      "predicted_cp": "mondrian",
+      "actual_cp": "mondrian",
+      "correct": true
+    },
+    {
+      "task": "ACSIncome_race_CA",
+      "predicted_cp": "mondrian",
+      "actual_cp": "split",
+      "correct": false
+    },
+    {
+      "task": "Adult_sex",
+      "predicted_cp": "split",
+      "actual_cp": "weighted",
+      "correct": false
+    },
+    {
+      "task": "Bank_age",
+      "predicted_cp": "mondrian",
+      "actual_cp": "split",
+      "correct": false
+    },
+    {
+      "task": "Taiwan_sex",
+      "predicted_cp": "mondrian",
+      "actual_cp": "mondrian",
+      "correct": true
+    }
+  ]
+}

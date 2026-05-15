@@ -1,0 +1,48 @@
+# =============================================================================
+# Code-release repository — gitignore
+# =============================================================================
+
+# --- Python build / bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# --- Virtualenvs ---
+.venv/
+venv/
+env/
+.python-version
+
+# --- Local caches (datasets, scikit-learn, Hugging Face, OpenML) ---
+.cache/
+~/.cache/huggingface/
+~/scikit_learn_data/
+
+# --- ACS PUMS raw downloads (if a user runs folktables directly and Census ever serves again) ---
+data/
+
+# --- Large run-time logs and intermediate parquets the smoke-test cache version covers ---
+# Note: we intentionally TRACK the small selected parquets in results/ that the paper relies on;
+# only re-run logs and oversized intermediates get ignored.
+*.log
+*.synctex.gz
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# --- Local secrets ---
+.env
+.env.local
+*.key
+*.pem
